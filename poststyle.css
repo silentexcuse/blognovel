@@ -303,14 +303,14 @@ p.toolTip {
 }
 
 #novel-category .ctr_switchCategory a {
-  border-bottom: 1px solid;
+  border-bottom: 3px solid;
   justify-content: center;
   width: 50%;
   padding: 10px 0;
 }
 
 #novel-category .ctr_switchCategory a.activeCategory {
-  border-bottom: 1px white solid;
+  border-bottom: 3px white solid;
 }
 
 #novel-content {
