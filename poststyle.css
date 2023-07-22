@@ -61,6 +61,15 @@ p.toolTip {
   line-height: 1.2;
   padding: 2px 4px;
   width: fit-content;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+
+.boxFlex.boxList > a:hover {
+  color: white;
+  border: 1px white solid;
 }
 
 .boxPresent {
