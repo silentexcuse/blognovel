@@ -1,5 +1,6 @@
-body {
-  height: 100%;
+
+.ctr_novel a:hover {
+  color: white;
 }
 
 img.cover {
