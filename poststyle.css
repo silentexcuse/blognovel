@@ -3,6 +3,15 @@
   color: white;
 }
 
+.ctr_novel a:hover {
+  color: white;
+}
+
+.inactiveStrike {
+  color: gray;
+  text-decoration: line-through;
+}
+
 img.cover {
   border-radius: 5px;
   height: 100%;
