@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 
 html {
   scroll-behavior: smooth;
@@ -20,13 +23,17 @@ img.status {
   text-decoration: line-through;
 }
 
+.dangerZone {
+  color: red !important;
+}
+
 .ctr_novel {
   margin: 0 auto;
   max-width: 720px;
 }
 
 .ctr_novel a:hover {
-  color: white;
+  color: white !important;
 }
 
 @media (min-width: 501px) {
@@ -79,6 +86,10 @@ p.toolTip {
 
 .boxFlex.boxList > a:hover {
   border: 1px white solid;
+}
+
+.boxFlex.boxList > .dangerZone {
+  border: 1px red solid;
 }
 
 .boxPresent {
