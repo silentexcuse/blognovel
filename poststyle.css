@@ -1,5 +1,6 @@
-body {
-  height: 100%;
+
+html {
+  scroll-behavior: smooth;
 }
 
 img.cover {
@@ -12,6 +13,11 @@ img.cover {
 img.status {
   max-height: 20px !important;
   max-width: 20px !important;
+}
+
+.inactiveStrike {
+  color: gray !important;
+  text-decoration: line-through;
 }
 
 .ctr_novel {
@@ -41,11 +47,6 @@ img.status {
 
 p.toolTip {
   margin: 5px 0;
-}
-
-.inactiveStrike {
-  color: gray;
-  text-decoration: line-through;
 }
 
 .boxFlex {
@@ -333,6 +334,8 @@ p.toolTip {
 #novel-content .sectionHeader {
   padding: 0 0 10px;
 }
+
+/* S4 */
 
 .ctr_readingSources table {
   border-collapse: collapse;
