@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 
 html {
   scroll-behavior: smooth;
@@ -128,6 +131,14 @@ p.toolTip {
   padding: 2px 4px;
 }
 
+.boxPreview {
+  padding: 20px 0;
+}
+
+.boxPreview h2 {
+  text-align: center;
+}
+
 .boxStatus + .boxStatus {
   margin-top: 15px;
 }
@@ -156,7 +167,7 @@ p.toolTip {
 
 #novel-category .ctr_switchCategory > a,
 #novel-content .ctr_switchContent > a,
-#chapters-list a.btn_bookflip {
+a.btn_bookflip {
   transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -165,7 +176,7 @@ p.toolTip {
 
 #novel-category .ctr_switchCategory > a.activeCategory,
 #novel-content .ctr_switchContent > a.activeContent,
-#chapters-list a.btn_bookflip.activeBook {
+a.btn_bookflip.activeBook {
   color: white;
 }
 
@@ -396,7 +407,8 @@ p.toolTip {
   padding: 7px 0;
 }
 
-#chapters-list a.btn_bookflip {
+/*  */
+a.btn_bookflip {
   border-top: 1px solid;
   font-weight: 600;
   justify-content: space-between;
@@ -404,12 +416,12 @@ p.toolTip {
   width: 100%;
 }
 
-#chapters-list a.btn_bookflip:hover,
-#chapters-list a.btn_bookflip.activeBook {
+a.btn_bookflip:hover,
+a.btn_bookflip.activeBook {
   border-top: 1px white solid;
 }
 
-#chapters-list .ctr_volume {
+.ctr_volume {
   max-height: 0;
   overflow: hidden;
   transition: all 0.25s ease-in-out;
@@ -418,12 +430,12 @@ p.toolTip {
   -webkit-transition: all 0.25s ease-in-out;
 }
 
-#chapters-list .ctr_volume ul {
+.ctr_volume ul {
   list-style: none;
   margin: 5px 0;
   padding: 5px;
 }
 
-#chapters-list .ctr_volume li {
+.ctr_volume li {
   padding: 3px 0;
 }
