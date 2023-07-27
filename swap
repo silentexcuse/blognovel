@@ -1,0 +1,11 @@
+.boxFlex.boxFlip > div {
+  width: 100%;
+}
+
+.boxFlex.boxFlip {
+  flex-wrap: wrap;
+}
+
+.boxFlex.boxFlip > #novel-content {
+  order: 1;
+}
